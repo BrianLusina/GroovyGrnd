@@ -1,4 +1,1 @@
-include ':javaapp'
-include ':groovyapp'
-include ':kotlinapp'
-include ':scalaapp'
+include ':app'
