@@ -1,21 +1,29 @@
-# JVM PlayGround
+# GroovyGrnd
 
-[![Build Status](https://travis-ci.org/BrianLusina/Java-Playground.svg?branch=master)](https://travis-ci.org/BrianLusina/Java-Playground)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ee8646cf1ed14cf4a2624601d1caa7fd)](https://www.codacy.com/app/BrianLusina/Java-Playground?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrianLusina/Java-Playground&amp;utm_campaign=Badge_Grade)
-[![CircleCI](https://circleci.com/gh/BrianLusina/Java-Playground.svg?style=svg)](https://circleci.com/gh/BrianLusina/Java-Playground)
+A series of code snippets written in Groovy. This is used as a learning tool into the [Groovy](http://groovy-lang.org/) programming language.
 
-JVM PlayGround has a series of small programs and snippets in Java Groovy, Kotlin and Scala.
-Reason for naming it so is because of how these languages interact with each other in the JVM.
+## Getting Started
 
-The project is divided into  modules, each module targets the specific language, however, the whole project has the 3 modules included in `settings.gradle`, therefore all tests are run together to create a unified coverage report.
+Simply clone the repository and run any code snippet. All the code snippets, or 90% that count have tests backing them. The structure 
+of the tests directory directly matches the structure of the app directory, which houses all the code snippets.
 
-Each module has its own gradle configuration and can be run independently if one `cd`s into the module directory and runs various gradle tasks
-
-To run the tests on the overall project
-
-``` sh
-$ gradle test
+```sh
+$ git clone https://github.com/BrianLusina/GroovyGrnd.git
+$ cd GroovyGrnd
+$ ./gradlew test
 ```
 
+It is preferrable that you run tests and any other task with the Gradle Wrapper, as this will ensure you are using the correct version of gradle.
+
+## Pre-requisites
+
+Kotlin Compiler and gradle are the main pre-requisites you will need when using this repository. Downloading them is easy using [sdkman](http://sdkman.io/install.html). Follow the instructions to get a copy of sdkman and then install kotlin and gradle as follows:
+
+```sh
+$ sdk install groovy
+...
+$ sdk install gradle
+```
 
 Enjoy!
+
