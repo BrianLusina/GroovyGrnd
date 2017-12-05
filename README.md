@@ -1,5 +1,7 @@
 # GroovyGrnd
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c0108cafd4884a4db12ae1f776cdf904)](https://www.codacy.com/app/BrianLusina/GroovyGrnd?utm_source=github.com&utm_medium=referral&utm_content=BrianLusina/GroovyGrnd&utm_campaign=badger)
+
 A series of code snippets written in Groovy. This is used as a learning tool into the [Groovy](http://groovy-lang.org/) programming language.
 
 ## Getting Started
