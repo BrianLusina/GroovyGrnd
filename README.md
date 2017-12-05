@@ -1,5 +1,8 @@
 # GroovyGrnd
 
+[![Build Status](https://travis-ci.org/BrianLusina/GroovyGrnd.svg?branch=master)](https://travis-ci.org/BrianLusina/GroovyGrnd)
+[![CircleCI](https://circleci.com/gh/BrianLusina/GroovyGrnd.svg?style=svg)](https://circleci.com/gh/BrianLusina/GroovyGrnd)
+
 A series of code snippets written in Groovy. This is used as a learning tool into the [Groovy](http://groovy-lang.org/) programming language.
 
 ## Getting Started
